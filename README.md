@@ -1,8 +1,10 @@
 # youtube.py
+
 **YouTube Data Harvesting and Warehousing using SQL, MongoDB and Streamlit**
 
 
 **Problem Statement:**
+
 The problem statement is to create a Streamlit application that allows users to access and analyze data from multiple YouTube channels. The application should have the following features:
  * Ability to input a YouTube channel ID and retrieve all the relevant data (Channel name, subscribers, total video count, playlist ID, video ID, likes, dislikes, comments of each video) using Google API.
 * Option to store the data in a MongoDB database as a data lake.
@@ -12,10 +14,12 @@ The problem statement is to create a Streamlit application that allows users to 
 
 
 **Getting Started**
+
 Install/Import the necessary modules: Streamlit, Pandas, PyMongo, Psycopg2, Googleapiclient, and Isodate.
 Ensure you have access to MongoDB Atlas and set up a PostgresSQL DBMS on your local environment.
 
 **Methods:**
+
 
  * Get YouTube Channel Data: Fetches YouTube channel data using a Channel ID and creates channel details in JSON format.
 
@@ -46,6 +50,7 @@ Ensure you have access to MongoDB Atlas and set up a PostgresSQL DBMS on your lo
 
 **Tools Expertise**
 
+
 * Python (Scripting)
 
 * Data Collection
@@ -60,7 +65,8 @@ Ensure you have access to MongoDB Atlas and set up a PostgresSQL DBMS on your lo
 
 * VS CODE
 
+ 
+** Result :**
 
-****  Result :****
 
 This project focuses on harvesting YouTube data using the YouTube API, storing it in MongoDB, converting to SQL for analysis. Utilizes Streamlit, Python, and various methods for ETL. Expertise includes Python, MongoDB, SQL, API integration, and data management tools . This project mainly reduces 80% percentage of manually data processing and data storing work effectively.
